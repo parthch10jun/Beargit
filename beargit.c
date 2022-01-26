@@ -17,7 +17,7 @@
  *   * write_string_to_file(filename,str): write <str> to filename (overwriting contents)
  *   * read_string_from_file(filename,str,size): read a string of at most <size> (incl.
  *     NULL character) from file <filename> and store it into <str>. Note that <str>
- *     needs to be large enough to hold that string.
+ *     needs to be large enough to hold that string. */
 
 int beargit_init(void) {
   fs_mkdir(".beargit");
