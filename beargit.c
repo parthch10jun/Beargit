@@ -10,11 +10,6 @@
 /* Implementation Notes:
  *
  * - Functions return 0 if successful, 1 if there is an error.
- * - All error conditions in the function description need to be implemented
- *   and written to stderr. We catch some additional errors for you in main.c.
- * - Output to stdout needs to be exactly as specified in the function description.
- * - Only edit this file (beargit.c)
- * - You are given the following helper functions:
  *   * fs_mkdir(dirname): create directory <dirname>
  *   * fs_rm(filename): delete file <filename>
  *   * fs_mv(src,dst): move file <src> to <dst>, overwriting <dst> if it exists
@@ -23,9 +18,6 @@
  *   * read_string_from_file(filename,str,size): read a string of at most <size> (incl.
  *     NULL character) from file <filename> and store it into <str>. Note that <str>
  *     needs to be large enough to hold that string.
- *  - You NEED to test your code. The autograder we provide does not contain the
- *    full set of tests that we will run on your code. See "Step 5" in the homework spec.
- */
 
 int beargit_init(void) {
   fs_mkdir(".beargit");
