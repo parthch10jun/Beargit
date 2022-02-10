@@ -1,7 +1,3 @@
-/**
- * This file contains functionality to parse command line arguments. Do not modify!
- */
-
 #include <stdio.h>
 #include <string.h>
 
@@ -33,9 +29,7 @@ int main(int argc, char **argv) {
         fprintf(stderr, "Usage: %s <command> [<args>]\n", argv[0]);
         return 2;
     }
-
-    // TODO: If students aren't going to write this themselves, replace by clean
-    // implementation using function pointers.
+  
     if (strcmp(argv[1], "init") == 0) {
 
       if (check_initialized()) {
